@@ -27,7 +27,6 @@ function validarFormularioIntegrantes(event){
     if(esExito){    
     
     crearIntegrantes(cantidadIntegrantes)
-    
     }
     event.preventDefault()
 }
@@ -114,11 +113,11 @@ function mostrarEdad(tipo, valor){
 }
 
 function ocultarBotonCalculo() {
-    document.querySelector('#calcular').className = 'oculto btn btn-secondary';
+    document.querySelector('#calcular').className = 'oculto';
 }
 
 function mostrarBotonCalculo() {
-    document.querySelector('#calcular').className = 'btn btn-secondary';
+    document.querySelector('#calcular').className = '';
 }
 
 function ocultarResultados() {

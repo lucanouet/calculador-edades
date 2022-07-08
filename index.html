@@ -4,18 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>    
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="container">
     <form id='form-integrantes'>
-        <h1>Calcular promedio de edad familiar</h1>
-        <label for="cantidad-integrantes">Ingrese cantidad de integrantes de su familia</label>
+        <label for="cantidad-integrantes">Ingrese cantidad de integrantes</label>
         <input type="number" name="integrantes" id="cantidad-integrantes">
-        
-        <button type="submit" id="siguiente-paso" class="btn btn-primary" >Siguiente</button>
+        <button type="submit" id="siguiente-paso">Siguiente</button>
         
         
         
@@ -24,18 +20,18 @@
         <div id="place-holder">
 
         </div>
-        <button type="submit" id="calcular" class="oculto btn btn-secondary">Calcular</button>
+        <button type="submit" id="calcular" class="oculto">Calcular</button>
     </form>
         
         <div id="analisis" class="oculto">
             <p>La edad mayor es: <strong id="mayor-edad"></strong></p>
             <p>La menor edad es: <strong id="menor-edad"></strong></p>
             <p>El promedio de edad es: <strong id="promedio-edad"></strong></p>
-            <button type="reset" id="resetear" class="btn btn-success">Resetear</button>
+            <button type="reset" id="resetear">Resetear</button>
         </div>
 
     
-    </div>  
+    
 </body>
 
 
